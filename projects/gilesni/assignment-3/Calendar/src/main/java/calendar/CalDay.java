@@ -78,7 +78,7 @@ public class CalDay {
 										appt.getStartHour()) {
 					
 					getAppts().add(i, appt);
-					return;
+					
 				}
 			}
 		    //The appointment hasn't been added yet, so add it
@@ -101,7 +101,7 @@ public class CalDay {
 	 * time set placed at the beginning.
 	 */
 	public Iterator<?> iterator() {
-	    if (isValid()) {
+	    if (!isValid()) {
 	        return getAppts().iterator();
 	    }
 	    else {
