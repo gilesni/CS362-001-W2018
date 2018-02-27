@@ -103,19 +103,19 @@ public class ApptRandomTest {
 			            appt.setRecurrence(recurDays, recur, recurIncrement, recurNumber);
 			        }
 			        else if (methodName.equals("setHour")) {
-			            int newHour = ValuesGenerator.getRandomIntBetween(random, 0, 24);
+			            int newHour = ValuesGenerator.getRandomIntBetween(random, 0, 48);
 			            appt.setStartHour(newHour);
 			        }
                     else if (methodName.equals("setMinute")) {
-                        int newMinute = ValuesGenerator.getRandomIntBetween(random, 0, 61);
+                        int newMinute = ValuesGenerator.getRandomIntBetween(random, 0, 100);
                         appt.setStartHour(newMinute);
                     }
                     else if (methodName.equals("setDay")) {
-                        int newDay = ValuesGenerator.getRandomIntBetween(random, 0, 32);
+                        int newDay = ValuesGenerator.getRandomIntBetween(random, 0, 60);
                         appt.setStartHour(newDay);
                     }
                     else if (methodName.equals("setMonth")) {
-                        int newMonth = ValuesGenerator.getRandomIntBetween(random, 0, 12);
+                        int newMonth = ValuesGenerator.getRandomIntBetween(random, 0, 24);
                         appt.setStartHour(newMonth);
                     }
 				}
