@@ -103,15 +103,15 @@ public class ApptRandomTest {
 			    }
 			    else if (methodName.equals("setMinute")) {
 			        int newMinute = ValuesGenerator.getRandomIntBetween(random, 0, 100);
-			        appt.setStartHour(newMinute);
+			        appt.setStartMinute(newMinute);
 			    }
 			    else if (methodName.equals("setDay")) {
 			        int newDay = ValuesGenerator.getRandomIntBetween(random, 0, 60);
-			        appt.setStartHour(newDay);
+			        appt.setStartDay(newDay);
 			    }
 			    else if (methodName.equals("setMonth")) {
 			        int newMonth = ValuesGenerator.getRandomIntBetween(random, 0, 24);
-			        appt.setStartHour(newMonth);
+			        appt.setStartMonth(newMonth);
 			    }
 			}
 
