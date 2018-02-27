@@ -67,7 +67,7 @@ public class ApptRandomTest {
 				
 				 int startHour = ValuesGenerator.RandInt(random);
 				 int startMinute = ValuesGenerator.RandInt(random);
-				 int startDay = ValuesGenerator.RandomInt(random);
+				 int startDay = ValuesGenerator.RandInt(random);
 				 int startMonth = ValuesGenerator.getRandomIntBetween(random, 1, 11);
 				 int startYear = ValuesGenerator.RandInt(random);
 				 String title = "Birthday Party";
