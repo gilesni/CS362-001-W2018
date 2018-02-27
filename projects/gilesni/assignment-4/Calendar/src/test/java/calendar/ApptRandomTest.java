@@ -90,7 +90,7 @@ public class ApptRandomTest {
 			        else if (methodName.equals("setRecurrence")) {
 			            int sizeArray = ValuesGenerator.getRandomIntBetween(random, 0, 8);
 			            boolean allowRecurDays = ValuesGenerator.getBoolean(5, random);
-                        int[] recurDays
+                        int[] recurDays;
                         if (allowRecurDays == true){
                             recurDays = ValuesGenerator.generateRandomArray(random, sizeArray);
                         }
